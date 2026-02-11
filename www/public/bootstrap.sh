@@ -8,7 +8,7 @@ set -euo pipefail
 # curl -sSL https://code.debs.io/xiosk/bootstrap.sh | sudo bash -s -- [command]
 
 # --- Configuration ---
-readonly XIOSK_REPO="debloper/xiosk"
+readonly XIOSK_REPO="lasithih/xiosk"
 readonly XIOSK_INSTALL_DIR="/opt/xiosk"
 readonly XIOSK_TEMP_DIR="/opt/xiosk.new"
 
