@@ -18,7 +18,7 @@ let xiosk = {
     if (duration) {
       $(tmpUrl).find('.duration-input').val(duration);
     }
-    if (cycles) {
+    if (cycles != null) {
       $(tmpUrl).find('.cycles-input').val(cycles);
     }
 
